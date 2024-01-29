@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page is Locked!</title>
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/lock.css">
+    <script src="https://kit.fontawesome.com/7a0a2e4880.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> (Google Tracker)-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<!--<div class="ngx-navbar-box">-->
+<!--    <div class="ngx-brand"></div>-->
+<!--</div>-->
+<img id="bg-image" src="/images/easd.jpg" style="visibility: hidden" class="ngx-bg-image" alt="neko neko neko nyaaa~">
+<div id="view-port" class="ngx-flex-viewport">
+    <div class="ngx-box-viewport-one">
+        <div class="ngx-box-content">
+            <form id="form-not-use" class="ngx-form-login">
+                <!-- Adaptive -->
+                <div id="login-form" class="ngx-container-form">
+                    <h1 class="ngx-title">Page is Lock!</h1>
+                    <div class="ngx-description">
+                        <p id="helper">This is a private page!,Please enter a password to continue!</p>
+                    </div>
+                    <span class="ngx-line"></span>
+                    <!-- Password Stuff -->
+                    <label class="ngx-form-label">Password</label>
+                    <input type="password" placeholder="Password" id="password" class="ngx-form-input">
+                    <button type="button" class="ngx-btn-primary" id="login">Login</button>
+                </div>
+                <!-- Loading -->
+                <div id="loading" style="display: none;" class="ngx-container-form">
+                    <p class="ngx-loading-description">Please wait while we log in you in</p>
+                    <i class="fa-solid fa-circle-notch spinner"></i>
+                    <p class="ngx-loading-tips">The page will automatically refresh if the password is correct.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+<script src="/javascripts/library/anime.min.js"></script>
+<script src="/javascripts/lock.js"></script>
+</html>

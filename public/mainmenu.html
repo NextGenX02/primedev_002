@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NextCamp</title>
+    <!-- Reset default css -->
+    <link rel="stylesheet" href="/stylesheets/reset.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> (Google Tracker) -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <!-- App Styling -->
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7a0a2e4880.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/wavesurfer.js@7"></script>
+    <script src="/javascripts/component/feature.js"></script>
+</head>
+<body>
+<!-- Navbar -->
+<div class="ngx-navbar-box">
+    <div class="ngx-navbar-brand">
+        <h1>NEXTCAMP</h1>
+    </div>
+    <!-- Right Menu -->
+    <button class="ngx-lgn-button" type="button"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+</div>
+<!-- Main Page -->
+<div class="ngx-feature-flex-box">
+    <!-- Feature BG Image -->
+    <!--    <img class="ngx-feature-bg-image" src="/images/plana_blue_01.jpg" alt="Artwork BG">-->
+    <div class="ngx-feature-container-flex">
+        <!-- Album cover -->
+        <img src="/images/plana_blue_01.jpg" id="feature-artwork" class="artwork-feature" alt="Album Artwork">
+        <!-- Feature Track Info -->
+        <div class="ngx-feature-track-info">
+            <p class="feature-text">Feature Artist</p>
+            <h1 class="feature-artist-text" id="feature-artist">DUMMY</h1>
+            <h4 class="feature-track-text" id="feature-title">Some random dummy title</h4>
+            <!-- Button -->
+            <div class="ngx-feature-button-box">
+                <!-- Play Sample -->
+                <button type="button" id="play-sample-ft" class="ngx-feature-sample-btn"><i
+                        class="fa-regular fa-circle-play"></i> Demo
+                </button>
+                <button type="button" id="shop-full-ft" class="ngx-feature-sample-btn"><i
+                        class="fa-solid fa-cart-shopping"></i> Buy
+                </button>
+                <div id="audio-wave" style="display: none"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- All Available Release -->
+<div class="ngx-next-title">
+    <p>Available Release</p>
+</div>
+<div class="ngx-table-container">
+    <table class="ngx-release-table-box">
+        <thead>
+        <tr>
+            <th style="width: 40px">No.</th>
+            <th style="width: 20%">Title</th>
+            <th>Release Date</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Buy</th>
+        </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody class="table-body">
+        <tr>
+            <td>
+                <p class="table-index">1</p>
+            </td>
+            <td class="td-title">
+                <img src="/images/plana_blue_01.jpg" class="artwork-table">
+                <div class="track-info">
+                    <p class="track-title">Demo Title</p>
+                    <p class="track-artist">Demo Artist</p>
+                </div>
+            </td>
+            <td>
+                <div class="td-title">
+                    <p>20-10-2034</p>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

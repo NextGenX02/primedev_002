@@ -1,0 +1,57 @@
+{
+  "musicData": [{
+    "title": "With Me",
+    "artist": "Altemis",
+    "album": "With me - Single",
+    "release_date": "25-12-2023",
+    "feature": true,
+    "price": 25000,
+    "demo_sample": "https://res.cloudinary.com/datasave/video/upload/v1706519732/primedev/Nextcamp/Audio_Data/Artemis%20-%20With%20Me/taioozi1ngq9pfduxwb0.mp3",
+    "artwork": ""
+  },{
+    "title": "With you",
+    "artist": "Dream Smile",
+    "album": "With you - Single",
+    "release_date": "20-12-2023",
+    "feature": false,
+    "price": 45000,
+    "demo_sample": "https://res.cloudinary.com/datasave/video/upload/v1706519783/primedev/Nextcamp/Audio_Data/Dream%20Smile%20-%20With%20You/ulokqzahd5qrkx4ohn9o.mp3",
+    "artwork": ""
+  },{
+    "title": "Equanimity",
+    "artist": "EONI",
+    "album": "Hardcore Utopia 4",
+    "release_date": "15-11-2023",
+    "feature": false,
+    "price": 25000,
+    "demo_sample": "https://res.cloudinary.com/datasave/video/upload/v1706519818/primedev/Nextcamp/Audio_Data/EONI%20-%20Equanimity/vvv1syovfnz9hmlaeebl.mp3",
+    "artwork": ""
+  },{
+    "title": "Lost Shine (Assertive & Hyperlock Bootleg)",
+    "artist": "Assertive, Hyperlock",
+    "album": "Lost Shine - single",
+    "release_date": "14-11-2023",
+    "feature": false,
+    "price": 25000,
+    "demo_sample": "https://res.cloudinary.com/datasave/video/upload/v1706519893/primedev/Nextcamp/Audio_Data/Lost%20Shine%20%28Assertive%20ft%20Hyperlock%20Bootleg%29/xxufjz4scyx6wflffuzq.wav",
+    "artwork": ""
+  },{
+    "title": "Mumei (EONI Remix)",
+    "artist": "EONI",
+    "album": "Mumei (EONI Remix) - Single",
+    "release_date": "16-11-2023",
+    "feature": false,
+    "price": 15000,
+    "demo_sample": "https://res.cloudinary.com/datasave/video/upload/v1706519946/primedev/Nextcamp/Audio_Data/Mumei%20%28EONI%20Remix%29/fcvvi6kdttopdz88eln2.mp3",
+    "artwork": ""
+  },{
+    "title": "In your Eyes",
+    "artist": "Osanzi",
+    "album": "In your Eyes - Single",
+    "release_date": "10-12-2023",
+    "feature": true,
+    "price": 15000,
+    "demo_sample": "https://res.cloudinary.com/datasave/video/upload/v1706519992/primedev/Nextcamp/Audio_Data/Osanzi%20-%20In%20Your%20Eyes%20%28Hatsune%20Miku%29/wtpxden9j4ro9t2vjc7r.mp3",
+    "artwork": ""
+  }]
+}
